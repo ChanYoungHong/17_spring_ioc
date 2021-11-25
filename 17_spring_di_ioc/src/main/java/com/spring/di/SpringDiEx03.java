@@ -55,6 +55,7 @@ public class SpringDiEx03 {
 	@RequestMapping(value="/springDiEx03" , method=RequestMethod.GET)
 	public String springDiEx03() {
 		
+		pdMgrEx01.printInfo();
 		
 		
 		return "home";
